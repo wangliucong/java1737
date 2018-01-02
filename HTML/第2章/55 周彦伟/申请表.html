@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>表单小结</title>
+</head>
+
+<body>
+  <form action="" method="post">
+    <table>
+        <tr>
+             <td colspan="2">申请表</td>
+        </tr>
+        
+        <tr>
+            <td>姓名：</td>
+            <td><input type="text" name="ming"  size="20"/></td>
+        </tr>
+        
+        <tr>
+            <td>密码：</td>
+            <td><input type="password" name="mi" size="20"/></td>
+        </tr>
+        
+        <tr>
+             <td colspan="2">照片：</td>
+        </tr>
+        
+        <!--<tr>
+            <td><input type="text" name="ming"  size="20"/></td>
+            <td><input type="password" name="mi" size="20"/></td>
+        </tr>-->
+        <tr>
+             <td colspan="2">感兴趣的职位：</td>
+        </tr>
+        
+        <tr>
+            <td><input type="radio" name="Web" value="sheji" checked="checked"/>Web设计</td>
+            <td><input type="radio" name="Web" value="she" />Web开发</td>
+        </tr>
+        
+        <tr>
+            <td>向往的城市：</td>
+            <td>
+                 <select  name="chengshi">
+                      <option value="" selected="selected">请选择</option>
+                      <option value="1" >北京</option>
+                      <option value="2" >上海</option>
+                      <option value="3" >广东</option>
+                      <option value="4" >苏州</option>
+                      <option value="5" >郑州</option>
+                      <option value="6" >南京</option>
+                 </select>
+            </td>
+        </tr>
+        
+        <tr>
+             <td colspan="2">协议：</td>
+        </tr>
+        
+        <tr>
+             <td colspan="2"><textarea name="xieyi" cols="20" rows="10">求职信息必须真是、准确，本网站只负责向企业推荐！</textarea></td>
+        </tr>
+        
+        <tr>
+             <td colspan="2"><input type="checkbox" name="yuedu" value="tong"/>我认真阅读并接受以上协议</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">经验：</td>
+        </tr>
+
+        <tr>
+            <td ><select  name="jingyan">
+                        <option value="" selected="selected">无经验</option>
+                        <option value="1" >有经验</option>
+                 </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" name="tijiao" value="提交" /></td>
+            <td><input type="reset" name="chongzhi" value="重置" /></td>
+        </tr>
+    </table>
+  </form>  
+</body>
+</html>
