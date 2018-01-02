@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>表单小结</title>
+</head>
+
+<body>
+  <h3>申请表</h3>
+  <form name="forml"action="login.jsp" method="post">
+    <p>姓名：<input type="text"name="username"/>
+    <input type="hidden" name="username" value="zhangsan" />
+    </p>
+    <p>密码：<input type="password"name="psd"/></p>
+    <p>照片：</p>
+    <p><input type="file"name="浏览..."/></p>
+    <p>感兴趣的职位：</p>
+    <p><input type="radio"name="web"value="web设计"checked/>web设计
+       <input type="radio"name="web"value="web开发"/>web开发
+    </p>
+    <p>向往的城市：<select>
+      <option value="请选择"selected="selected">请选择</option>
+      <option value="">北京</option>
+      <option value="">上海</option>
+      <option value="">深圳</option>
+      <option value="">广州</option>
+      <option value="">杭州</option>
+      <option value="">武汉</option>
+      <option value="">郑州</option>
+     </select></p>
+    <p>协议：</p>
+    <p><textarea cols="30"rows="6"readonly="readonly">求职信息必须真实,准确，本网站只负责向企业推荐。</textarea></p>
+    <p><input type="checkbox"name="123"value="协议"/>我认真阅读并接受以上协议。</p>
+    <p>经验：</p>
+    <p><select>
+      <option value="请选择"selected="selected">无经验</option>
+      <option value="">半年以下</option>
+      <option value="">一年以下</option>
+      <option value="">三年以下</option>
+      <option value="">五年以下</option>
+      <option value="">五年至十年</option>
+      <option value="">十年至二十年</option>
+     </select></p> 
+     <input type="submit"name="sub"value="提交"disabled="disabled"/>
+     <input type="reset"name="res"value="重置"/>
+       
+  </form>
+
+</body>
+</html>
