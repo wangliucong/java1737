@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>表单小结</title>
+</head>
+
+<body>
+  <h3>申请表</h3>
+  	<form name="forml"action="login.jsp" method="post">
+      <p>姓名：<input type="text"name="username"/>
+        <input type="hidden" name="username" value="zhangsan" />
+      </p>
+      <p>密码：<input type="password"name="psd"/></p>
+      <p>照片：</p>
+      <p><input type="file"name="浏览....."/></p>
+      <p>爱好：</p>
+      <p><input type="checkbox"name="book"value="书"checked/>书
+         <input type="checkbox"name="yundong"value="运动"/>运动
+         <input type="checkbox"name="diannao"value="玩电脑"/>玩电脑</p>
+      <p>所在的城市：<select>
+         <option value="请选择"selected="selected">请选择</option>
+         <option value="">平顶山</option>
+         <option value="">洛阳</option>
+         <option value="">所罗门</option>
+         <option value="">香海</option>
+         <option value="">泰国</option>
+         <option value="">新加坡</option>
+         <option value="">印度</option>
+         </select></p>
+      <p>协议：</p>
+      <p><textarea cols="30"rows="6"readonly="readonly">甲乙双方必须遵守规定，如有更改会通知！</textarea></p>
+      <p><input type="checkbox"name="123"value="协议"/>我认真阅读并接受以上协议。</p>
+        <input type="submit"name="sub"value="提交"disabled="disabled"/>
+        <input type="reset"name="res"value="重置"/>
+    </form>
+</body>
+</html>
