@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>申请表</title>
+</head>
+
+<body>
+<form action="" method="post">
+<p><h4>申请表</h4></p>
+<p>姓名：<input type="text" name="xm">
+   <input type="hidden" name="zhangsan">
+</p>
+<p>密码：<input  type="password" name="mima"></p>
+<p>照片：<input type="file" name="file"></p>
+<p>感兴趣的职位：<input type="radio" name="web" value="Web设计" checked="checked">Web设计
+      <input type="radio" name="web" value="Web开发" >Web开发</p>
+<p>向往城市：
+ <select name="town">
+      <option value="0">[请选择]</option>
+      <option value="1">上海</option>
+      <option value="2">深圳</option>
+      <option value="3">杭州</option>
+  </select>
+</p>
+<p>协议：<textarea name="xy" rows="3" cols="35" readonly="readonly">求职信息必须真实、准确，本网站值负责向企业推荐。</textarea></p>
+<p><input type="checkbox" name="choose">我认真阅读并接受以上协议。</p>
+<p>经验：
+ <select name="jingyan">
+      <option value="1" spellcheck="true">无经验</option>
+      <option value="2">一年经验</option>
+      <option value="3">三年及三年以上经验</option>
+ </select>
+</p>
+<p><input type="submit" disabled="disabled" value="提交">
+   <input type="reset" value="重置">
+</p>
+</form>
+</body>
+</html>
