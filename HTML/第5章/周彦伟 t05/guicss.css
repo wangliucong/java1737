@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,ul,li{ margin:0px; padding:0px; font-size:12px;}
+#container{ width:1024px; margin:0px auto;}
+#header{ height:150px; background-color:#CCC; background:url(count/h_bg.jpg) no-repeat;}
+	#logo{ height:96px; width:280px;  float:left;}
+	#menu{ height:39px; width:480px;  float:right;  }
+	   #menu li{list-style:none; float:left;  padding-left:5px; }
+	   #menu a{ text-decoration:none;  color:#000; line-height:39px;  text-align:center; }
+	   img{ padding-top:5px;}
+	   .in{ background:url(count/sutn/btn1.jpg) no-repeat 0px 8px; width:38px; height:26px;}
+	   
+	   
+	#hello{ height:33px; width:580px; float:right; padding-top:10px;}
+	
+	#nav{ height:34px; width:100%;  float:right;  padding-left:10px;}
+	  #nav li{ list-style:none; float:left; padding:9px ; width:71px; font-weight:bold;font-size:12px;text-align:center; line-height:20px;}
+	  #nav a{ text-decoration:none; width:10px; height:80px; color:#000;}
+	  #nav a:hover{ background:url(count/nav_bg.png) no-repeat; font-size:16px;}
+#main{ height:400px; background-color: #F69;}
+    #left{ width:50%; height:100%; background-color:#0C0; float:left;}
+	#rigth{ width:50%; height:100%; background-color:#F00; float:left;}
+#footer{ height:100px; background-color:#CCC;}
+
