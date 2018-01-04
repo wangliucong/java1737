@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd{ margin:0px; padding:0px;}
+#right{ background:url(image/bg.gif) no-repeat; width:240px; height:300px; }
+#right dl{ padding-top:32px;}
+#right dt{ float:left; line-height:60px;; border:#666 1px solid;}
+#right  dd{ float:left; color:#F06; line-height:60px; } 
+#right a{ text-decoration:none; text-align:center;}
+#right a:hover{ color:red;}
