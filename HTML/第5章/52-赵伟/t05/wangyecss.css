@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,ul,li,dl,dt,dd{ margin:0px; padding:0px;font-size:12px; }
+#container{ width:1024px; margin:0px auto;}
+#header{ height:150px; background-color:#9FF; background:url(image/h_bg.jpg) no-repeat;}
+	#loge{ height:100px; width:280px;}
+	#menu{ height:47px; width:480px; float:right;}
+		#menu li{ list-style:none; float:left; line-height:35px; padding:0px 5px; text-align:center;}
+		#menu a{ text-decoration:none; color:#000;}
+		#menu img{ padding-top:5px;}
+		.in{ background:url(image/btn1.jpg) no-repeat 0px 8px; width:30px;}
+	#hello{ height:39px; width:580px; font-size:14px; float:right; clear:right; }
+	#nav{ height:34px; width:100%; float:left; padding-left:27px;}
+		#nav li{ list-style:none; float:left; font-size:14px; line-height:27px; width:84px; font-weight:bold; text-align:center;}
+		#nav a{ text-decoration:none; color:#000;}
+		#nav a:hover{ background:url(image/nav_bg.png); font-size:16px;}
+#main{ height:610px; }
+	#left{ width:50%; height:100%; float:left;}
+		#diannao{ background:url(image/bg.gif) no-repeat; width:240px; height:300px; padding-top:10px;}
+		#diannao dl{ margin:12px auto; padding:25px 10px;}
+		#diannao dt{ float:left; line-height:60px;; border:#000 1px solid; }
+		#diannao  dd{ float:left; color:#F06; line-height:60px; padding-left:7px;} 
+		#diannao a{ text-decoration:none; text-align:center;}
+		#diannao a:hover{ color:red;}
+	#right{ width:50%; height:100%; float:left; background-color:#0F3}
+#footer{ height:100px; background-color:#9FF;}
+

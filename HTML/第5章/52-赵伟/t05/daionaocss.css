@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd{ margin:0px; padding:0px;}
+#diannao{ background:url(image/bg.gif) no-repeat; width:240px; height:300px; }
+#diannao dl{ padding-top:45px; padding-left:5px;}
+#diannao dt{ float:left; line-height:60px;; border:#000 1px solid;}
+#diannao  dd{ float:left; color:#F06; line-height:60px; padding-left:7px;} 
+#diannao a{ text-decoration:none; text-align:center;}
+#diannao a:hover{ color:red;}
