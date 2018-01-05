@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd{ margin:0px; padding:0px;}
+#ture{ background:url(bg.gif) no-repeat; width:235px; height:300px;}
+#ture dl{ padding-top:32px;}
+#ture dt{ float:left; line-height:60px;; border:#666 1px solid;}
+#ture  dd{ float:left; color:#F06; line-height:60px; } 
+#ture a{ text-decoration:none; text-align:center;}
+#ture a:hover{ color:red;} 
+
+
