@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+    <h2>申请表</h2>
+    <form name="form1" action="login.jsp" method="post">
+      <p>姓名：<input type="text"name="username"/></p>
+      <p>密码：<input type="password"name="psd"/></p>
+      <p>个人照片</p>
+      <p>感兴趣的职位：</p>
+    <p><input type="radio"name="web"value="经理"checked/>经理
+       <input type="radio"name="web"value="老总"/>老总</p>
+    <p>未来趋向城市：<select>
+      <option value="请选择"selected="selected">请选择</option>
+      <option value="">北京</option>
+      <option value="">上海</option>
+      <option value="">广州</option>
+      <option value="">深圳</option>
+      <option value="">香港</option>
+      <option value="">武汉</option>
+      <option value="">澳大利亚</option>
+     </select></p>
+     <p>公司协议：</p>
+    <p><textarea cols="30"rows="6"readonly="readonly">本猎头公司为高等公司介绍并提供专业人才，所以信息务必真实，审核通过后可听通知参加面试</textarea></p>
+    <p><input type="checkbox"name="123"value="协议"/>我以认真阅读并接受以上协议。</p>
+    <p>工作经验(曾经有过几年的阅历)：</p>
+    <p><select>
+      <option value="请选择"selected="selected">无经验</option>
+      <option value="">一年以下</option>
+      <option value="">二年以下</option>
+      <option value="">三年以下</option>
+      <option value="">四年以下</option>
+      <option value="">五年至十年</option>
+      <option value="">十年至二十年</option>
+      <option value="">二十年以上</option>
+      <option value="">没有</option>
+     </select></p> 
+     <input type="submit"name="sub"value="提交"disabled="disabled"/>
+     <input type="reset"name="res"value="重置"/>
+
+
+    </form>
+</body>
+</html>
