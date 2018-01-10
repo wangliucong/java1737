@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+#diannao{height:500px; padding:0px 22px;}
+tr{ font-family:黑体; font-size:15px;}
+
+h2{ text-align:center;}
+    #dna{ width:380; float:left; padding:10px 15px;}
+	#dna .dn1{padding:10px 0px;letter-spacing:6px;}
+	#dna .dn2{ letter-spacing:100px;}
+	
+	#dnb{width:580px;float:right;}
+	#dnb .table{width:400px;}
+		#dnb td{ line-height:30px; border-bottom:#999 1px dashed;}
+		#dnb dl{margin-top:10px;}
+		#dnb dt{ float:left; height:40px; padding-top:10px; padding-left:10px;margin:10px 0px; background-color:#FF9; }
+	#dnb dd{float:left;line-height:20px;margin-top:10px;background-color: #FF9;margin:10px 0px; width:300px; padding:5px;}
+	
+	#dnc{ float:left;}

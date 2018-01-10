@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+	/* 尾部 */		
+#fond{ height:120px; width:100%; float:left; text-align:center;}
+	#fond a{ text-decoration:none; color:#000;}
+	#fond a:hover{color:#C00;}
+#con{ width:1024px; margin:0px auto;}

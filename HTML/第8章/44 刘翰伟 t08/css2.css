@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+div,dl,dt,dd{ padding:0px; margin:0px;}
+#ddd{ background:url(amger2/bg.gif) no-repeat;width:240px;height:300px; padding:8px 0px;}
+dl{ padding-top:32px; }
+dt{ float:left;width:53PX; height:48px;border:#999 2px solid;}
+dd{ float:left;height:60px;padding-top:2px;}
+a{color:#000; text-align:center; line-height:53px; font-size:15px;width:260px;text-decoration:none;}
+#ddd a:hover{color:#C00;}
+
