@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+div,dl,dt,dd{ margin:0px; padding:0px;}
+	#div{ background:url(image/bg.gif) no-repeat; width:240px; height:300px;}
+	dl{ padding-top:34px;}
+	dt{float:left; width:53px; height:46px; padding-right:5px; border: 1px solid; margin-left:5px;}
+	dd{float:left; line-height:60px;font-size:12px; text-align:center; letter-spacing:3px; padding-left:5px;}
+	#div a{ text-decoration:none; color:#000;}
+	#div a:hover{ color:#930;}
