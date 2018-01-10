@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+#sp{ width:980px; height:400px;}
+	h3{ text-align:center;}
+	#sp-1{ width:39%; height:420px;  float:left;}
+	    #tdst{ height:200px; width:200px;}
+		#sp-1 table{ margin:20px  20px;}
+		#sp-1 td{ line-height:30px;}
+		#sp-tr img{ border:#CCC 1px solid;}
+		
+	#sp-2{width:60%; height:400px; float:right; }
+		#tbre{  width:330px; height:50px;}
+		
+		#sp-2 table td{ border-bottom: #CCC 1px dashed; line-height:30px;}
+		#trat{ width:330px; height:100px;margin-top:42px;  }
+		
+		#sp-2 dt{ float:left;background-color:#FFC;  height:39px; text-align:center; 
+		         border-bottom:#CC6 1px solid; border-left:#CC6 1px solid; border-top:#CC6 1px solid;}
+		#sp-2 dd{ float:left; margin-right:250px;background-color:#FFC; height:39px; line-height:20PX;
+		         border-bottom:#CC6 1px solid; border-top:#CC6 1px solid; border-right:#CC6 1px solid;}
+
+
