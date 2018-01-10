@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,dl,dt,dd{ margin:0px; padding:0px; list-style:none; font-size:12px;}
+	a:hover{ color:#F60;}
+	a{ text-decoration:none; color:#000;}
+	
+	/* 主体 */
+	#container{ width:1024px; margin:0px auto;}
+	/* 头部 */
+	#tou{ height:150px; width:1024px; background-image:url(image/tou/h_bg.jpg);margin:auto;}
+		#logo{ width:280px; height:96px; float:left;}
+		
+		/* 菜单栏 */
+		#menu{ width:500px; height:39px; float:right; text-align:center; padding:10px 0px;}
+			#menu li{ float:left; margin-left:10px; text-decoration:none;}
+			#menu a:hover{ color:#F60;}
+			.cc{ background:url(image/tou/btn1.jpg) no-repeat; width:41px; height:45px;}
+		
+		/* 欢迎 */
+		#hello{ width:600px; height:33px;float:right; clear:right; letter-spacing:5px;}
+		
+		/* 导航栏 */
+		#nav{ width:100%; height:53px; float:left;}
+			#nav li{ float:left; padding-top:10px; width:65px; padding-left:21px;}
+			#nav a:hover{ background-image:url(image/tou/nav_bg.png); width:80px; height:40px; font-size:16px; color:#F60;}
+			
+		/* 身体 */
+		#shen{height:660px; background:url(image/shen/bg1.gif) no-repeat; width:980px; margin-left:20px;}
+			/* 左边部分 */
+			#left{ width:200px; height:500px; float:left; padding-top:38px;}
+				#left ul{ float:left; padding-left:10px;}
+				#left .zi{ font-size:16px; color:#F60; width:200px; font-weight:bold;}
+				#left li{ float:left; width:62px; line-height:25px; font-size:8px; letter-spacing:1px;}
+				#left .zi1{ font-size:16px; color:#F60; width:200px; font-weight:bold;line-height:21px;}
+				 
+			/* 中间部分 */
+			#center{  height:100%; width:540px; float:left;}
+				/* 中间上部 */
+				#tu{ height:190px; text-align:center;}
+				
+				/* 中间下部 */
+				#pian{ margin-top:15px; height:440px; padding-top:35px; margin-left:13px;}
+				#center dl{ float:left; margin-left:17px; }
+				#center dt{ width:140px; height:90px; text-align:center; margin:5px; border:#999 1px solid;}
+				#center dd{ float:left; clear:left; width:140px; text-align:center;}
+				
+			
+			/* 右边部分 */
+			#right{ width:240px; height:500px; float:left; padding-top:140px;}
+				#div{ width:233px; height:300px;padding:37px 0px; padding-left:10px;}
+				#right dl{ float:left;}
+				#right dt{width:53px; height:46px;margin:8px 3px;border:#CCC 1px solid; float:left;}
+				#right dd{ line-height:60px; text-align:center; font-size:14px; padding:0px 15px; float:right;}
+				
+				
+		#di{ height:100px; width:100%; float:left; text-align:center;}
+			
+			
+			
+
