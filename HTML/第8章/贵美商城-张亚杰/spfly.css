@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+	body,div,ul,li,table,tr,td{padding:0px;margin:0px; font-size:12px;list-style:none;  }
+	#spfly{ text-align:center; margin-bottom:5px;}
+	#div1{ width:1024px; height:35px; font-weight:bold; font-size:14px; line-height:35px;}
+	
+	#div2{ width:400px; float:left; margin-top:7px;}
+		#div2 div{ margin:10px 4px;}
+		
+	#div3{ float:left; width:400px;}
+		#div3 .td{ text-align:center;}
+		#div3 .color{ background:#FFC;}
+		#div3 td{ line-height:20px; width:100px; height:30px; border-bottom:#CCC dashed 1px; font-weight:bold;}
+	#div4{ width:400px; float:left; height:76px; margin-bottom:-11px;}
+	#div5{ width:386px; float:left; line-height:32px; border:#C90 1px solid; margin-left:13px; background:#FFC;}
+		dt{ width:66px; height:32px; padding-top:10px; float:left;}
+		dd{ float:left; line-height:20px; width:320px;}

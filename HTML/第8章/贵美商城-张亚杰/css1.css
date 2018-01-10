@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */ 
+
+	body,div,ul,li,dl,dt,dd{padding:0px;margin:0px; font-size:12px;list-style:none;  }/*全局去除边距 以及初始字体大小 无样式*/
+	
+	#tou{height:150px; width:1024px; background:url(image/h_bg.jpg) no-repeat;}/*头部*/
+		#logo{ height:96px; width:280px; float:left;}
+		#cai{ height:39px; width:460px; float:right;}/*菜单栏*/
+			#cai li{ float:left; line-height:39px; margin:0px 2px;}
+			#cai a:hover{ color:#FC6; font-size:13px;}
+			#cai .li{ background:url(image/btn1.jpg) no-repeat -7px 6px; width:41px; height:31px;}
+			#cai img{ padding-top:7px;}
+			#cai a{text-decoration:none; color:#000;}
+		#hello{ height:33px; width:380px; float:right; color:#666; font-size:20px; padding-top:20px; font-size:14px;}/*欢迎语句*/					    
+		#dao{ height:34px; width:100%; float:left; padding-left:20px;}/*导航栏*/
+			#dao li{  float:left; width:84px; line-height:34px; text-align:center; font-weight:bold;}
+			#dao a{ text-decoration:none; color:#000; font-size:14px;}
+			#dao a:hover{ background:url(image/nav_bg.png) no-repeat; width:84px; height:34px; font-size:16px;}
+	#main{ background:url(image/bg1.gif) no-repeat; height:660px;}/*主题部分*/
+		#left{ height:100%;width:200px; float:left; padding-top:36px;}/*左部分*/
+			#left ul{ padding-left:10px;}
+			#left li{list-style:none;font-size:10px;line-height:29px;width:60px;float:left;}
+			#left .ju{color:#FC6;font-size:16px;line-height:29px;width:150px; font-weight:bold;}
+			#left a{text-decoration:none; color:#000; font-size:13px; font-weight:4px;}
+			#left a:hover{ color:#FC6;}
+		#center{height:100%;width:530px; float:left; text-align:center;}/*中间部分*/
+			#center1{ padding-top:40px; padding-left:25px;}
+			#center1 dl{ width:33%; height:33%; float:left; margin-top:8px;}
+			#center1 dt{ width:114px; height:89px; border:#CCC 1px solid; margin:0px auto;}
+			#center1 a{text-decoration:none; color:#000;}
+			#center1 a:hover{ color:#FC6; }
+
+		#right{ height:100%;width:270px;  float:left;}/*右部分*/
+			#div { background:url(image/bg.gif) no-repeat; width:250px; height:300px; margin-top:140px; margin-left:15px;}
+			#div dl{ padding-top:32px;}
+			#div dt{ width:53px; height:46px; line-height:60px; float:left; border:#ccc 1px solid; margin:2px 5px;}
+			#div dd{ width:180px;line-height:60px; float:left; font-size:12px; padding-left:5px;}
+			#div a{ text-decoration:none; color:#000;}
+			#div a:hover{ color:#FC6;}
+			#div a:active{ color:#CC0;}
+	#di{height:200px; width:1024px; text-align:center;}/*底部*/
+		#di a{ color:#000;}
+		#di a:hover{ color:#FC6; }
+	#container{ width:1024px; margin:0px auto;}
