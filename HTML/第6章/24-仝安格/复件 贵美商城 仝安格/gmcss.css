@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,dl,dt,dd,ol,a{ margin:0px; padding:0px;list-style:none; font-size:13px; color:#000; text-decoration:none; }
+a:hover{ color:#F00;}
+#contrainer{ width:1024px; margin:0px auto;}
+#toubu{ height:150px; background-image:url(image/h_bg.jpg)}
+   #logo{ width:280px; height:96px;  float:left;}
+   #caidan{ width:480px; height:39px;  float:right;}
+       #caidan li{float:left;  line-height:35px; text-align:center; }
+	   #caidan a{font-size:14px; text-decoration:none; color:#000;}
+	   #caidan img{ padding-top:5px; }
+	   .in{ background:url(image/btn1.jpg) 0px 8px no-repeat ; width:50px; height:30px; }
+   #nihao{width:500px; height:33px; float: right; font-size:12px; padding-top:20px;  }
+   #daohang{width:100%; height:34px; float:left; padding-left:30px; padding-top:5px;}
+       #daohang li{  float:left; width:84px; line-height:24px; }
+       #daohang a{ color:#000;  text-decoration:none; font-size:14px; font-weight:bold;}
+	   #daohang a:hover{ background-image:url(image/nav_bg.png);  width:84px; line-height:34px;}
+	
+	
+#zhuti{ height:660px; background:url(image/bg1.gif) no-repeat; height:660px; margin-left:20px;}
+	#left{ width:200px; height:100%; float:left; border:#000 1px solid; }
+		#left .metu{color:#F93; font-size:16px; font-weight:bold; width:180px;padding-top:35px; padding-left:10px; line-height:35px;}
+		#left a{ float:left; line-height:22px; padding-left:10px;  width:50px; text-decoration:none; color:#000;}
+		#left ul{}
+	#center{ width:535px; height:100%; float:left; border:#000 1px solid;}
+	
+		#center div{ width:520px; height:400px; float:left; padding-top:40px; padding-left:20px; }
+		#center dl{width:160px; height:130px; float:left; padding:3px;}
+		 
+	#right{ width:240px; height:100%; float:left; border:#000 1px solid;}
+	#right1{ border:#000 1px solid; width:240px; height:150px;}
+	#right2{ border:#000 1px solid; width:240px; height:285px; }
+		#right div{float:left; padding-top:10px; }
+		#right dl{ width:240px; height:60px; padding-left:15px;}
+		#right dt{width:50px; height:40px;float:left;line-height:50px;}
+		#right dd{ line-height:40px; width:150; padding-left:15px;}
+	#right3{ border:#000 1px solid; width:240px; height:175px; }
+	
+#weibu{ height:150px; text-align:center; width:980px; clear:left;}
+  
+	
+    
+    

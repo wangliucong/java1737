@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+	#zhu{ height:650px; background:url(image/metu1/catlist_bg.gif) no-repeat; margin-left:20px;}
+	.td{ width:300px;  font-weight:bold; height:10px; padding-top:90px;}
+	
+	table{text-align:center;}
+	td{ border-bottom:#999 1px dashed;}
