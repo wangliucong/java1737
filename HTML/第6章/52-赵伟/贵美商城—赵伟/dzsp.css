@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,a,dt,dd,p{ margin:0px auto;}
+#main-1{ height:650px; width:980px; margin-left:23px; text-align:center; background:url(image/catlist_bg.gif) no-repeat;}
+#main-1 td{ height:120px; width:300px; line-height:18px;}
+.id{ font-weight:bold;}
+td{ border-bottom:#666 1px dashed;}
