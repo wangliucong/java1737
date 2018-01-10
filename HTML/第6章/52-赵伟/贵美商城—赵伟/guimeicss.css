@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,ul,li,a,dl,dt,dd,p{ margin:0px; padding:0px;font-size:12px; list-style:none;}
+#container{ width:1000px; margin:0px auto;}
+/* 头部 */
+#header{ height:150px; width:1024px; background-color:#9FF; background:url(image/h_bg.jpg) no-repeat;}
+	#loge{ height:100px; width:280px;}
+	#menu{ height:47px; width:480px; float:right;}
+		#menu li{ list-style:none; float:left; line-height:35px; padding:0px 5px; text-align:center;}
+		#menu a{ text-decoration:none; color:#000;}
+		#menu a:hover{color:#F60;}
+		#menu img{ padding-top:5px;}
+		.in{ background:url(image/btn1.jpg) no-repeat 0px 8px; width:30px;}
+	#hello{ height:39px; width:580px; font-size:14px; float:right; clear:right; padding-top:20px; letter-spacing:5px; color:#666; }
+/* 导航栏 */
+	#nav{ height:34px; width:100%; float:left; padding-left:27px;}
+		#nav li{ list-style:none; float:left; font-size:14px; line-height:19px; width:84px; font-weight:bold; text-align:center;}
+		#nav a{ text-decoration:none; color:#000;}
+		#nav a:hover{ background:url(image/nav_bg.png); font-size:16px; color:#F60;}
+/* 主体 */
+#main{ height:660px; background:url(image/bg.gif) no-repeat;}
+	/* 左 */
+	#left{ width:200px; height:620px; float:left; margin-top:35px;}
+	#left ul{ padding-left:10px;}
+	#left .ul{ font-size:16px; line-height:37px; width:200px; color:#C60; font-weight:bold;}
+	#left li{ float:left; width:63px; line-height:22px;}
+	#left a{text-decoration:none; color:#000;}
+	#left a:hover{ color:red;}
+	/* 中 */
+	#center{ width:540px; height:100%; float:left; text-align:center;}
+		#img{ background:url(image/ad-01.jpg) no-repeat; width:524px; height:200px; margin-left:10px;}
+		.div1{ padding-top:35px; padding-left:15px;}
+		#center dl{ float:left;  height:120px; width:160px; margin-top:10px; padding-left:10px;}
+		#center dt{ border:#666 1px solid;text-align:center; width:135px; height:90px; margin-left:10px; }
+		#center dd{ widows:100px;  text-align:center; }
+		#center a{ text-decoration:none; color:#000; }
+		#center a:hover{ color:red;}
+	/* 右 */
+	#right{ width:240px; height:100%; float:left; }
+		#diannao{ width:240px; height:300px; padding-top:130px;}
+		#diannao dl{ padding-top:60px; padding-left:15px;}
+		#diannao dt{ float:left; line-height:60px;; border:#000 1px solid;}
+		#diannao  dd{ float:left; color:#F06; line-height:60px; padding-left:23px; } 
+		#diannao a{ text-decoration:none; color:#000;}
+		#diannao a:hover{ color:red;}
+#footer{ height:100px; text-align:center; font-size:14px; }
+	#footer a{ text-decoration:none; color:#000;}
+	#footer a:hover{ color:red;}
