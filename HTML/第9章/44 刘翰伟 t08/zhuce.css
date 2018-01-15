@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+#tu-1{ width:1024px; height:600px; background: url(amger4/reg_bg.gif) no-repeat 22px 0px; padding-right:22PX;}
+    table{ padding-top:40px;}
+   .qb-1{ text-align:right; width:150px;}
+   .qb-2{ text-align:left;width:400px;}
+   .qb-3{width:200px;}
+   td{ height:40px;}

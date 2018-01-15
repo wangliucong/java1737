@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
+#tu{ background:url(amger3/catlist_bg.gif) no-repeat;height:650px; padding-top:40px; margin-left:25px; text-align:center;}
+td{ border-bottom:#999 1px dashed;}
+table{ border:#000 1px solid;}
