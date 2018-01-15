@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+table,tr,td{ text-align:center;}
+#dzcp{ width:980px;height:660px;background:url(image/dianzi/catlist_bg.gif) no-repeat 22px 0px; padding-left:20px;}
+	a{text-decoration:none;color:#000;}
+	a:hover{color:#F00;}
+		
+.td1{width:240px;height:40px;font-weight:bold; padding-top:80px;}
+td{ border-bottom:#666 1px dashed; line-height:25px;}

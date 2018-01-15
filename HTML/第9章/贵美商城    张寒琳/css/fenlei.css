@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+#fl{height:500px; padding:0px 22px; }
+tr{ font-family:黑体;}
+
+h3{ text-align:center;}
+    #a{ width:380; float:left; padding:10px 15px;}
+	#a a{text-decoration:none;color:#000;}
+	#a .td1{padding:10px 0px;letter-spacing:15px;}
+	#a .td2{ letter-spacing:100px;}
+	
+	#b{width:580px;float:right;}
+	#b .table{width:400px;}
+	#b td{ line-height:30px; border-bottom:#999 1px dashed;}
+	#b dl{margin-top:10px;}
+	#b dt{ height:40px;float:left; padding-top:10px; padding-left:10px;margin:10px 0px; background-color:#FFC; border-top:#C96 1px solid; border-left:#C96 1px solid; border-bottom:#C96 1px solid;}
+	#b dd{ width:300px;float:left;line-height:20px;margin-top:10px;background-color:#FFC;margin:10px 0px; padding:5px; border-top:#C96 1px solid; border-bottom:#C96 1px solid; border-right:#C96 1px solid;}
+	
+	#c{ float:left;}
+	
+	
+	
+	
