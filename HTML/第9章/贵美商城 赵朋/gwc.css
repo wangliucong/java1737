@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+#gwc{ height:480px; padding-left:20px;}
+.tablea{ width:950px; height:200px;}
+.tab{ padding-left:100px;}
+.bj{ background:url(image/buytitle_bg.gif) no-repeat; height:30px; padding-left:50px; padding-top:10px;}
+.ts{ text-align:center;}
+.font{ font-weight:bold;}
+.yh{ color:#F00;}
+#gwc a{ text-decoration:none; color:#000;}
+#gwc a:hover{ color:#c60;}
+#gwc td{ font-size:15px;}
+.p1{ font-size:15px; font-weight:bold; height:30px;}

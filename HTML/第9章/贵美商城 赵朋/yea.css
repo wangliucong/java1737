@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+#dr{ background:url(image/reg_bg.gif) no-repeat 20px 0px; height:600px; padding-top:80px; padding-left:50px;padding-left:40px;}
+table{ text-align:left; height:600px; padding-left:40px;}
+.td1{ text-align:right; width:100px;}
+.td2{ width:450px;}
+.td3{ width:300px;}
+.td4{ text-align:center;}

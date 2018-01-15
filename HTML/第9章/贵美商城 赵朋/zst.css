@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+#zst{ width:1024px; height:600px; padding-left:20px;}
+#al{ width:180px; height:450px; float:left;  background:url(image/customer.jpg) no-repeat; padding-top:150px; text-align:center;}
+#al a{ text-decoration:none; color:#90F;  height:40px; line-height:35px; display:block; overflow:hidden;  }
+#al a:hover{ height:auto;  font-size:18px;}
+#ar{ width:800px; height:550px; float:left;border:#000 1px solid; overflow:hidden; }
+	#h1,#h2,#h3{width:800px; height:550px;}
+#h1 li{ font-size:16px;}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+p{ font-weight:bold; font-size:16px; border:#CCC 2px solid; padding:10px;text-align:center;}
+#div z{ height:450px;  width:1000px; }
+#zl table{ width:400px; height:400px; float:left;text-align:center;}
+#zr table{ width:550px; float:left;}
+#zr td{ border-bottom:#999 1px dashed; letter-spacing:3px; line-height:25px;}
+#zl img{ border:#999 1px solid;}
+.bj{text-align:center;}
+dl{ float:left; margin-top:10px; }
+dt{float:left;height:30px;width:70px; padding:10px 0px; border-top:#C96 1px solid;border-bottom:#C96 1px solid;border-left:#C96 1px solid;background-color:#FFC;}
+.dd{float:left; padding:5px 0px; line-height:20px;border-top:#C96 1px solid;border-bottom:#C96 1px solid;border-right:#C96 1px solid; background-color:#FFC;}
+#tb{ height:180px;width:550px;}
