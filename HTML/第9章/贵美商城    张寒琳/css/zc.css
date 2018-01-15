@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+#zc{ width:1024px; height:660px;background:url(../image/zhuce/reg_bg.gif) no-repeat 22px 0px; padding-left:20px;}
+table{ line-height:40px; padding-top:50px; font-family:黑体; font-size:15px;}
+.t1{width:150px; text-align:right;}
+.t2{width:500px;}
+.t22{ height:100px;}
+.t3{width:300px; height:200px;}
+span{ text-align:left; font-weight:bold;}

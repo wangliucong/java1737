@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+#buy{ width:980px;height:400px;padding:10px 0px;padding-left:20px; font-family:黑体;}
+tr,td{ padding:3px 0px;}
+a{text-decoration:none;color:#000;}
+a:hover{color:#F00;}
+d1{width:980px;}
+dt{float:left; font-weight:bold;}
+dd{float:left;padding:5px 45px; font-weight:bold;}
+.tr1{font-weight:bold;}
+.td1{width:980px; height:32px;background:url(../image/buy/buytitle_bg.gif) no-repeat;}
+.td2{width:350px;}
+.td3{color:red;}
+.td4{width:50px;}
+.td5{text-align:center;}
+.td6{width:150px;}
+.td7{padding-left:55px;}
+.td8{padding-left:115px;}
+span{font-weight:bold;}
+.s1{padding-left:65px; font-weight:bold;}

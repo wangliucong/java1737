@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+#help{ height:600px; padding-left:20px;}
+#hl{width:200px;height:370px; float:left; background:url(../image/help/customer.jpg) no-repeat;padding-top:180px; text-align:center;}
+	#hl a{width:180px;height:31px; text-decoration:none;display:block; overflow:hidden; margin:10px 0px;}
+	#hl a:hover{ height:auto; color:#F60; font-size:14px; font-weight:bold;margin:10px 0px; line-height:24px;}
+
+
+
+#hr{width:780px;height:545px; float:left;overflow:hidden;border:#C00 1px solid;}
+#hr #h1{width:780px;height:545px;padding:20px 20px 0px 20px;font-family:黑体;}
+	h2{letter-spacing:3px;}
+	p{width:720px;letter-spacing:1px; line-height:20px;}
+	dl{ margin-top:15px;}
+	dt{ float:left; height:20px;}
+	dd{ line-height:20px;}
+#hr #h2{width:780px;height:545px;padding:20px 20px 0px 20px;font-family:黑体;}
+#hr #h3{width:780px;height:545px; padding:20px 20px 0px 20px;font-family:黑体;}
+
+
