@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+#ds{ padding-left:20px;}
+#dl{ background:url(image/login_bg.gif) no-repeat; height:400px; padding-top:70px;}
+.tablea{ width:500px; float:left; height:400px;}
+.ta{ width:60px;}
+.tb{ width:250px; text-align:right; }
+.tc{ width:140px;}
+.tf{ text-align:center;}
+.tableb{width:400px; float:left; height:350px;}
+.de{ width:50px;}
+.df{ text-align:center;}
+.dg{ text-align:center; border:#FC6 2px solid;}
+.dh{ letter-spacing:2px;}

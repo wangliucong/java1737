@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body,div ,ul ,li,dl,dt,dd{ margin:0px; padding:0px; font-size:13px;  }
+a:hover{ color:#C60;}
+
+#h{  height:150px; width:1024px; background:url(image/h_bg.jpg) no-repeat;}
+	#logo{  width:280px; height:96px;}
+	#menu{width:480px; height:39px; float:right; }
+		#menu li{ list-style:none; float:left; font-size:13px; margin:0px; padding:10px 3px;    line-height:35px;}
+		#menu a{text-decoration:none; text-align:center; color:#000;}
+		#menu a:hover{ color:#C60;}
+		#menu img{ padding-top:3px;}
+		.in{ background:url(image/btn1.jpg) no-repeat 0px 17px; width:40px;height:20px;}
+		
+	#hello{ width:580px; height:33px; float:right; line-height:50px; padding-left:40px; letter-spacing:10px;}
+	#dh{  width:100%; height:34px;}
+		#dh li{ list-style:none; float:left;  padding-left:20px; width:66px; text-align:center; line-height:34px; }
+		#dh a{ text-decoration:none; color:#000; font-size:14px; font-weight:bold;}
+		#dh a:hover{ font-size:15px; color:#C00; background:url(image/nav_bg.png) no-repeat;width:200px;height:100px;}
+	#img{ width:280px; height:96px;}
+#m{ background:url(image/bg.gif) no-repeat ; height:660px; }
+	#l{ width:200PX; height:100%; float:left;}
+		#l ul{  padding-top:36px; padding-left:10px; list-style:none; height:114px; }
+		#l .jia{ color:#C60; font-size:16px; width:200px; line-height:25px; font-weight:bold;}
+		#l li a{ float:left; width:60px; line-height:24px;text-decoration:none; font-size:13px; color:#000;}
+		#l a:hover{ color:#C60;}
+	#c{ width:540PX; height:100%; float:left; text-align:center;}
+		#cc{  width:540px; }
+			#cc dl{ width:140px; height:70px; float:left; padding:35px 10px; margin:5px 5px;}
+			#cc dt { border:#999 1px solid; }
+			#cc a{text-decoration:none;color:#000;}
+			#cc a:hover{ color:#C30;}
+			
+	#r{ width:250PX; height:100%; float:right;padding-left:28px;}
+		#r dl{ padding-top:27px;}
+		#r dt{ float:left;  padding-top:5px; border:#666 1px solid;}
+		#r dd{ float:left; color:#F06; line-height:60px; } 
+		#r a{ text-decoration:none; text-align:center; color:#000;}
+		#r a:hover{ color:red;}
+	
+#f{height:140px; text-align:center; }
+	#f a{ text-decoration:none; color:#000;}
+	#f a:hover{ color:#c60;}
+#con{ width:1024px; margin:0px auto;}

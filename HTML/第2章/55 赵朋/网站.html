@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<form action="" method="post">
+     <p>申请表</p>
+     <p>姓名：<input type="text" name="xm" /></p>
+     <p><input type="hidden" name="he" value="zhangsan"/></p>
+     <p>密码：<input type="password" name="psd" /></p>
+     <p>照片:</p>
+     <p><input type="file" name="file"/> </p>
+     <p>感兴趣的职业：</p>
+     <p><input type="radio" name="ra" value="websheji" checked="checked"/> Web设计
+		<input type="radio" name="ra" value="webkaifa"> Web开发</p>
+     <p>向往城市:<select name="cs">
+     		<option value="" selected="selected">【请选择】</option>
+            <option value="0" >河南</option>
+            <option value="1" >上海</option>
+            <option value="2" >北京</option>
+            <option value="3" >西藏</option>
+            <option value="4" >项城</option>
+            <option value="5" >周口</option>
+            <option value="6" >鹿邑</option>
+            <option value="7" >海南</option>
+            <option value="8" >江苏</option>
+            </select></p>
+     <p>协议:<br/>
+     <textarea name="text" cols="20" rows="6" readonly="readonly">求职信息必须真实、准确，本网站只负责向企业推荐。</textarea></p>
+     <p><input name="agree" type="checkbox" />我认真阅读并接受以上协议</p> 
+     <p>经验：</p>
+     <p><select name="jy">
+     	<option value="" selected="selected">无经验</option>
+        <option value="0" >经验丰富</option>
+        <option value="1" >新手</option>
+        <option value="2" >高手</option>
+        </select></p>
+     <p><input type="submit" name="sb" value="提交" disabled="disabled">
+        <input type="reset" name="rs" value="重置"></p>
+</form>           
+</body>
+</html>
