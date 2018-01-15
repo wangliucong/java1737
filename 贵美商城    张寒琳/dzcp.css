@@ -1,6 +1,0 @@
-@charset "utf-8";
-/* CSS Document */
-table,tr,td{ text-align:center;}
-#dzcp{ height:660px; width:1024px;background:url(image/dianzi/catlist_bg.gif) no-repeat  22px 0px; padding-left:20px;}
-.td1{ height:40px;width:240px;font-weight:bold; padding-top:80px;}
-td{ border-bottom:#666 1px dashed; line-height:25px;}
