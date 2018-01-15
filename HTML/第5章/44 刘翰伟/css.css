@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,ol{margin:0px; padding:0px; font-size:13px;}
+#haned{ height:150px; background: url(%E5%9B%BE%E7%89%87/h_bg.jpg);}
+		#LOGO{ height:96px; width:280px; ; float:left;}
+		#menu{ height:37px; width:500px; float:right; }
+			#menu li{ list-style:none; float:left; padding:5px 5px; }
+			#menu a{text-decoration:none;}
+			.in{ background:url(%E5%9B%BE%E7%89%87/btn1.jpg) no-repeat; width:36px; height:30px; }
+		#hello{ height:33px; width:500px; background-color:#FF0; float:right;}
+		#nav{ height:34px; width:100%;  float:right;}
+		#nav li{ list-style:none; float:left; padding-left:20px; width:65px; line-height:32px;text-align:center;}
+		#nav a{ text-decoration:none; font-size:10px;}
+		#nav a:hover { background-image:url(%E5%9B%BE%E7%89%87/nav_bg.png); width:80px; height:25px; font-size:15px;}
+#mind{ height:500px; background-color:#F66; }
+		#login{ width:50%; height:100%; background-color:blue; float:left;}
+		#longiner{ width:50%; height:100%; background-color:red; float:left;}
+#fond{ height:100px; background-color:#666; }
+#con{ width:1024px; margin:0px auto;}

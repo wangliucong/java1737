@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+#qa{ width:170px; height:420px;  float:left; background:url(amger5/customer.jpg) no-repeat; padding:180px 13px 0px 0px; text-align:center;}
+#qa2{width:800px; height:550px;overflow:hidden;}
+#qa a{ display:block; overflow:hidden; width:160px; height:30px; }
+#qa a:hover{ height:auto;}
+#h1,#h2,#h3{ width:800px; height:550px;}
+#h1{}
+#h2{}
+#h3{ border-color:#000;}
+#li{text-align:center;}

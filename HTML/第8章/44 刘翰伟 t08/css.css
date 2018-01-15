@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,ol,dl,dd,dt{margin:0px; padding:0px; font-size:12px; list-style:none;}
+		 /* 头部*/
+#haned{ height:150px; width:1024px;background: url(amger1/h_bg.jpg);}
+		#LOGO{ height:96px; width:280px; ; float:left;}
+		#menu{ height:37px; width:500px; float:right; }
+			#menu li{ list-style:none;float:left; padding:5px 5px;}
+			#menu a{text-decoration:none; color:#000; line-height:32PX;}
+			#menu a:hover{ color:#F30;}
+			.in{ background:url(amger1/btn1.jpg) no-repeat 0PX 8PX ; width:36px; height:30px;  }
+		#hello{ height:33px; width:500px; float:right;}
+		p{ font-size:16px;}
+		#nav{ height:34px; width:100%;  float:right;}
+		#nav li{ list-style:none; float:left; padding-left:21px; width:66px; line-height:32px;text-align:center;}
+		#nav a{ text-decoration:none; font-size:10px; color:#000; font-weight:bold;}
+		#nav a:hover { background-image: url(amger1/nav_bg.png); width:200px; height:100px; font-size:15px;}
+#mind{ height:660px; background:url(amger1/bg.gif) no-repeat; margin-left:20px;}
+
+
+		/* 左边 */
+		#login{ width:200px; height:500px; float:left;  padding-top:38px;}
+		#login .bt{ font-size:16px; color:#F60;width:220px; font-weight:bold;}
+		#login .bti{ font-size:16px; color:#F60; width:220px; font-weight:bold; line-height:20px;}
+		#login li{ float:left; width:63px; line-height:25px;}
+		#login ul{ padding-left:10px;}
+		#login a{ text-decoration:none; color:#000;}
+		#login a:hover{ color:#F00;}
+		
+		
+		/* 中间 */
+		#loginb{ width:540px; height:500px; float:left;}
+			#tu{ height:190px; text-align:center;}
+			
+			#tu2{  height:460px; margin:40px 25px;}
+			#loginb dt{ border:#666 1px solid; height:90px; text-align:center;}
+			#loginb dl{ float:left; width:150px; height:120px; margin:5px; }
+			#loginb dd{ font-size:12px; line-height:19px; padding:1px; width:150px;text-align:center;}
+			#loginb a{ text-decoration:none; color:#000;}
+			#tu2 a:hover{color:#C00;}
+			
+			
+			
+			
+			/* 右边 */
+		#longiner{ width:200px; height:500px;float:left; padding-top:140px;}
+				#ddd{width:250px;height:350px; padding:45px 8px; padding-left:10px;}
+				#longiner dl{ float:left;}
+				#longiner dt{  border:#CCC 1px solid; margin:5px 4px; width:53px; height:47px; float:left;}
+				#longiner dd{ float:right; line-height:50px; text-align:center; font-size:14px; padding:0px 10px;}
+				#longiner a{text-decoration:none; color:#000;}
+				#ddd a:hover{color:#C00;}
+	
+				
+	/* 尾部 */		
+#fond{ height:120px; width:100%; float:left; text-align:center;}
+	#fond a{ text-decoration:none; color:#000;}
+	#fond a:hover{color:#C00;}
+#con{ width:1024px; margin:0px auto;}
