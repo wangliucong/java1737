@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+  boby,div,dl,dt,dd{ margin:0px; padding:0px;}
+	#div { background:url(image/bg.gif) no-repeat; width:250px; height:300px;}
+	#div dl{ padding-top:32px;}
+	#div dt{ width:53px; height:46px; line-height:60px; float:left; border:#000 1px solid; margin:2px 5px;}
+	#div dd{ width:180px;  line-height:60px; float:left; font-weight:bold; font-size:12px; padding-left:5px;}
+	#div a{ text-decoration:none; color:#000;}
+	#div a:hover{ color:#F00; font-size:14px;}
+	#div a:active{ color:#CC0;}
+	#div a:visited{ color:#0C0;}

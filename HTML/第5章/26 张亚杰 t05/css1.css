@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */ 
+
+	body,div,ul,li{padding:0px;margin:0px; font-size:14px;list-style:none;  }
+	#tou{height:150px; background:url(image/h_bg.jpg) no-repeat;}
+		#logo{ height:96px; width:280px; float:left;}
+		#cai{ height:39px; width:480px; float:right;}
+			#cai li{ float:left; line-height:39px; margin:0px 2px;}
+			#cai .li{ background:url(image/btn1.jpg) no-repeat -5px 6px; width:41px; height:31px;}
+			#cai img{ padding-top:5px;}
+			#cai a{text-decoration:none;}
+		#hello{ height:33px; width:380px; float:right; color:#F00; font-size:16px;}					    
+		#dao{ height:34px; width:100%; float:left; padding-left:20px;}
+			#dao li{  float:left; width:84px; line-height:34px; text-align:center; font-weight:bold;}
+			#dao a{ text-decoration:none; color:#000; font-size:14px;}
+			#dao a:hover{ background:url(image/nav_bg.png); width:84px; height:34px; font-size:16px;}
+	#main{ background-color: #F9C;height:600px;}
+		#left{ height:100%;width:50%; background-color:#F09; float:left;}
+		#right{ height:100%;width:50%; background-color:#3F9; float:left;}
+	#di{ background-color: #CF0;
+	height:200px;}
+	#container{ width:1024px; margin:0px auto;}
