@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li{ margin:0px; padding:0px; list-style:none;}
+#ren{ width:1024px; margin:0px auto;}
+#tou{ height:150px; background-color:#CCC; background:url(images/h_bg.jpg) no-repeat;}
+	
+	#caidan{ width:580px; height:39px; float:right; width:480px; line-height:49px;}
+		#caidan li{ float:left; font-size:12px;}
+		#caidan a{ text-decoration:none; padding:0px 5px; color:#000;}
+		#caidan img{ padding-top:10px;}
+		.guo{ background:url(images/btn1.jpg) no-repeat 0px 14px; width:41px; height:35px;}
+	#nihao{ width:580px; height:33px; float:right;text-decoration:none; padding-top:25px; color:#666; font-size:13px; letter-spacing:2px;}
+	#daohang{ width:100%; height:34px;float:left; padding-left:23px;}
+		#daohang li{ float:left; width:84px; line-height:35px; text-align:center;font-size:14px; font-weight:bold;}
+		#daohang a{ text-decoration:none; color:#000;}
+		#daohang a:hover{ background:url(images/nav_bg.png) no-repeat; width:20px; height:20px;font-size:18px; }
+#shenti{ height:500px; background-color:#FCC;}
+	#left{ width:50%;height:100%; background-color:#9F6; float:left;}
+	#right{ width:50%;height:100%; background-color:red; float:left;}
+#jiao{ height:100px; background-color:#999;}
+
