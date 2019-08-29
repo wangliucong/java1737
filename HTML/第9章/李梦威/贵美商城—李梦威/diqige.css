@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+#zuiwai{ width:1024px; margin:0px auto; text-align:center;}
+
+#zhuti{ width:1024px; height:750px; background:url(image/%E5%A4%8D%E7%94%A8%E4%B9%8B%E5%9B%BE%E7%89%87/catlist_bg.gif) no-repeat; margin-left:22px;}
+table{ width:980px;}
+.tr1{}
+td{ border-bottom:1px #000000 dashed;}
+
+
+
+
+
+/* 登陆 */
+#zuiwai{ height:550px; width:1000px;}
+
+#div-l{ height:395px; width:180px; background:url(image/customer.jpg) no-repeat; border:#000 1px solid; float:left; padding-top:155px;}
+	#div-l a{ width:160px; height:30px; display:block; overflow:hidden;}
+	#div-l a:hover{ height:auto;}
+
+#div-r{ height:550px; width:800px; border:#000 1px solid; float:left; overflow:hidden;}
+	<h2>知识堂首页>>商家帮助</h2>
+	<hr>
+	#h1{ height:auto; width:800px; background:#030;}
+	#h2{ height:auto; width:800px; background:#00C;}
+	#h3{ height:auto; width:800px; background:#903;}
