@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+#zhu-1{ width:980px; height:650px; background: url(../image/reg_bg.gif) no-repeat 20px 0px; padding-left:20px;}
+     table{ padding-top:60px; line-height:40px; font-family:黑体;}
+    .td-1{ text-align: right; width:160px;}
+	.td-2{ text-align:left;width:460px;}
+	.td-3{width:260px;}
+	span{ font-weight:bold;}
+

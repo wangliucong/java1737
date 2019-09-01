@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+#help{ width:1024px; height:550px;  padding-left:20px;}
+	#help1{ width:180px; height:400px;  float:left; background: url(../image/customer.jpg) no-repeat; padding-top:150px; text-align:center;}
+	#help1 a{ height:35px;line-height:30px; display:block; overflow:hidden; text-decoration:none; margin-top:5px;
+	          color:#F63; font-weight:bold;}
+	#help1 a:hover{ height:auto;}
+	#help2{ width:750px; height:550px; border:#F99 1px solid;  float:left; overflow:hidden; margin-left:20px;}
+     #h1,#h2,#h3{width:800px; height:550px; width:725px; height:550px;margin-left:10px;}
+	 
+	     #heh1 span{ font-size:20px; }
+		 #heh1 img{width:720px;}
+		 
+	 
+	 
